@@ -1,5 +1,25 @@
 # EmailSystem - Part 1: Core Models and Configuration
 
+ Let me start with Part 1, which includes the main application, model classes, and configuration.Here's **Part 1** of the Email System code, which includes:
+
+## Files Created:
+
+1. **EmailSystemApplication.java** - Main application entry point that can start either server or client mode
+2. **Email.java** - Email model class with all email properties and methods
+3. **User.java** - User model class with authentication and email management
+4. **ServerConfig.java** - Configuration management class with default settings
+5. **application.properties** - Configuration file with server and client settings
+
+## Key Features in Part 1:
+
+- **EmailSystemApplication**: Entry point with server/client mode selection
+- **Email Model**: Complete email representation with headers, body, timestamps, and utility methods
+- **User Model**: User management with inbox, sent, drafts, trash folders and authentication
+- **ServerConfig**: Centralized configuration with properties file support
+- **Properties File**: Configurable settings for ports, timeouts, and other parameters
+
+The Email and User models include comprehensive functionality for email management, authentication, and folder operations. The configuration system allows for flexible deployment settings.
+
 ## src/main/java/com/emailsystem/EmailSystemApplication.java
 ```java
 package com.emailsystem;
